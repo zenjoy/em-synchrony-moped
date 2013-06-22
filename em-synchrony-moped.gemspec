@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'eventmachine'
   s.add_runtime_dependency 'em-synchrony',      '~> 1.0'
-  s.add_runtime_dependency 'moped',             '~> 1.4.5'
+  s.add_runtime_dependency 'moped',             '~> 1.x'
   s.add_runtime_dependency 'em-resolv-replace', '~> 1.1.3'
 
   s.add_development_dependency 'rspec',         '~> 2.12.0'
